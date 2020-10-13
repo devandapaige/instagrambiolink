@@ -13,3 +13,9 @@ const affiliateLinks = [
   },
   { title: "", description: "", link: "" },
 ];
+function socialButtons () {
+const button = document.createElement("div");
+button.classList.add("socialButtons")
+const svg = document.createElement("img");
+const link = document.createElement("a");
+}

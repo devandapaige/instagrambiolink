@@ -17,6 +17,7 @@ header {
   flex-flow: column;
   justify-content: center;
   font-family: "Bad Script", cursive;
+  line-height: 0.3;
 }
 .profileImg img {
   width: 20%;
@@ -24,6 +25,10 @@ header {
 }
 .headerTextBlock {
   background-color: #0f241f;
+  padding-top: 50px;
+  position: relative;
+  top: -50px;
+  z-index: -1;
 }
 .disclosure {
   font-style: italic;
