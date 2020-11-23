@@ -8,15 +8,14 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <>
-      <h1>Amanda Nelson</h1>
+    <div className="app">
       <Header />
       <SubHeaderPic />
       <SocialIcons />
       <RegularLinks />
       <AffiliateLinks />
       <Footer />
-    </>
+    </div>
   );
 }
 
