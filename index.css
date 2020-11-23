@@ -1,0 +1,40 @@
+/* Mobile First design since it will be used on Instagram.*/
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Noto+Sans&display=swap");
+body {
+  background-image: url("https://images.unsplash.com/photo-1509265090777-c2c7dab5f3d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80");
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+}
+a {
+  color: lightgray;
+}
+a:visited {
+  color: rgb(161, 161, 161);
+}
+header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  font-family: "Bad Script", cursive;
+  line-height: 0.3;
+}
+.profileImg img {
+  width: 20%;
+  border-radius: 50%;
+}
+.headerTextBlock {
+  background-color: #0f241f;
+  padding-top: 50px;
+  position: relative;
+  top: -50px;
+  z-index: -1;
+}
+.disclosure {
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: center;
+}
+footer {
+  background-color: #3b5d4d;
+}
